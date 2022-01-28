@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  api:
+    image: node:14
+    working_dir: /app
+    volumes:
+      - ./api:/app
+    entrypoint: [ './docker-entrypoint.sh' ]
+    ports:
+      - 3333:3333

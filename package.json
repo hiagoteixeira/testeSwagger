@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "adonis5-swagger": "^1.3.3"
+  }
+}
